@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-align: center;
+    font-family: 'Poppins', sans-serifs;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    display: block;
+    padding: 25px;
+    border-bottom: 1px solid gray;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #929292;
+}
+
+nav a:hover {
+     color: black;
+}
+
+nav a.active {
+    color: black;
+}
+
+header {
+    margin: calc(50px + 1em + 1px);
+}
+
+h1 {
+    margin-top: 100px;
+    line-height: 1.25em;
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+h1 + p {
+    width: 800px;
+    margin: 35px auto;
+}
+
+#new-button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, #f00, #0f0);
+    padding: 1em 3em;
+    border-radius: 50px;
+    transition: 150ms ease;
+}
+
+#new-button:hover {
+    scale: 1.1;
+}
+
+.video-player {
+    width: min(1000px, 90%);
+    margin-top: 30px;
+    border-radius: 20px;
+    aspect-ratio: 16 / 9;
+
+}
+
+.item-container {
+    margin-top: 30px;
+}
+
+.item {
+    box-sizing: border-box;
+    display: inline-block;
+    width:300px;
+    height:300px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+    align-content: center;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.item > h2 {
+    margin-bottom: 10px;
+}
+
+.item:first-child {
+    border: 1px solid black;
+}
+
+.item:nth-child(2) {
+    background-color: bisque;
+    color: #f00;
+}
+
+.item:last-child {
+    background-color: blueviolet;
+    color: white;
+}
+
+form {
+    margin-top: 30px
+}
+
+form  input {
+    font: inherit;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+input[type="text"], input[type="password"] {
+    width: 300px;
+    height: 40px;
+    background-color: lightgray;
+    padding: 5px 20px;
+
+}
+
+input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+}
+
